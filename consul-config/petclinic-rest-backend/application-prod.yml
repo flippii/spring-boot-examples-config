@@ -11,7 +11,7 @@ spring:
           - prod
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/petclinic
+    url: jdbc:postgresql://postgres:5432/petclinic
     username: petclinic
     password:
     hikari:
